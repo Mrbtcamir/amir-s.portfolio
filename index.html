@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elbehi Amir Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Exo+2:wght@300;400;500;600;700&family=Audiowide&display=swap" rel="stylesheet">
+    <link href="tooplate-neural-style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<canvas id="neural-bg"></canvas>
+
+<nav id="navbar">
+    <div class="nav-container">
+        <a href="#home" class="logo-container">
+            <svg class="logo-svg" viewBox="0 0 100 100">
+                <circle cx="50" cy="20" r="8" fill="none" stroke="#00ffff" stroke-width="2"/>
+                <circle cx="25" cy="50" r="8" fill="none" stroke="#ff00ff" stroke-width="2"/>
+                <circle cx="75" cy="50" r="8" fill="none" stroke="#ff00ff" stroke-width="2"/>
+                <circle cx="50" cy="80" r="8" fill="none" stroke="#ffff00" stroke-width="2"/>
+                <line x1="50" y1="28" x2="25" y2="42" stroke="#00ffff" stroke-width="1" opacity="0.6"/>
+                <line x1="50" y1="28" x2="75" y2="42" stroke="#00ffff" stroke-width="1" opacity="0.6"/>
+                <line x1="25" y1="58" x2="50" y2="72" stroke="#ff00ff" stroke-width="1" opacity="0.6"/>
+                <line x1="75" y1="58" x2="50" y2="72" stroke="#ff00ff" stroke-width="1" opacity="0.6"/>
+                <circle cx="50" cy="50" r="5" fill="#00ffff"/>
+                <line x1="50" y1="28" x2="50" y2="45" stroke="#00ffff" stroke-width="1" opacity="0.6"/>
+                <line x1="50" y1="55" x2="50" y2="72" stroke="#ffff00" stroke-width="1" opacity="0.6"/>
+            </svg>
+            <span class="logo-text">AMIR ELBEHI</span>
+        </a>
+
+        <div class="mobile-menu-toggle" id="mobile-toggle">
+            <span></span><span></span><span></span>
+        </div>
+
+        <div class="nav-menu" id="nav-menu">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h1 class="glitch" data-text="ELBEHI AMIR">ELBEHI AMIR</h1>
+        <p class="subtitle">Web Developer & Digital Architect</p>
+    </div>
+
+    <a href="#about" class="scroll-btn">
+        <div class="scroll-btn-inner">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M7 13l5 5 5-5M7 6l5 5 5-5"/>
+            </svg>
+        </div>
+    </a>
+</section>
+
+<section id="about" class="fade-in">
+    <h2 class="section-title">ABOUT ME</h2>
+
+    <div class="about-container">
+        <div class="about-image">
+            <div class="profile-img-wrapper">
+                <div class="profile-img">
+                    <span>AI</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-content">
+            <h3>Crafting Digital Experiences</h3>
+
+            <p>
+                I'm a passionate web developer specializing in creating cutting-edge digital experiences 
+                that merge art with technology.
+            </p>
+
+            <p style="color: var(--text-secondary);">
+                With over 5 years of experience in frontend development, I transform complex ideas 
+                into intuitive and visually stunning web applications.
+            </p>
+
+            <div class="about-stats">
+                <div class="stat-card"><div class="stat-number">50+</div><div class="stat-label">Projects</div></div>
+                <div class="stat-card"><div class="stat-number">5+</div><div class="stat-label">Years Exp</div></div>
+                <div class="stat-card"><div class="stat-number">30+</div><div class="stat-label">Clients</div></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="fade-in">
+    <h2 class="section-title">PROJECTS</h2>
+
+    <div class="projects-grid">
+        <div class="glass-card project-card">
+            <h3>AI Dashboard</h3>
+            <p>Real-time analytics with neural network visualizations</p>
+        </div>
+
+        <div class="glass-card project-card">
+            <h3>Quantum UI</h3>
+            <p>Experimental interface inspired by quantum computing</p>
+        </div>
+
+        <div class="glass-card project-card">
+            <h3>Cyber Portal</h3>
+            <p>Immersive WebGL & Three.js 3D experience</p>
+        </div>
+
+        <div class="glass-card project-card">
+            <h3>Data Stream</h3>
+            <p>Live data visualization platform</p>
+        </div>
+
+        <div class="glass-card project-card">
+            <h3>Neon Grid</h3>
+            <p>Cyberpunk design system with glowing components</p>
+        </div>
+
+        <div class="glass-card project-card">
+            <h3>Matrix View</h3>
+            <p>3D data exploration with VR support</p>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="fade-in">
+    <h2 class="section-title">SKILLS</h2>
+
+    <div class="skills-container">
+        <div class="skill-node"><span>HTML5</span></div>
+        <div class="skill-node"><span>CSS3</span></div>
+        <div class="skill-node"><span>JavaScript</span></div>
+        <div class="skill-node"><span>React</span></div>
+        <div class="skill-node"><span>WebGL</span></div>
+        <div class="skill-node"><span>Three.js</span></div>
+    </div>
+</section>
+
+<section id="contact" class="fade-in">
+    <h2 class="section-title">CONTACT</h2>
+
+    <form class="contact-form glass-card">
+        <div class="form-group">
+            <input type="text" placeholder="Your Name" required>
+        </div>
+
+        <div class="form-group">
+            <input type="email" placeholder="Your Email" required>
+        </div>
+
+        <div class="form-group">
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+        </div>
+
+        <button type="submit" class="neural-btn">SEND MESSAGE</button>
+    </form>
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Navigation</h3>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Services</h3>
+            <ul>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">UI/UX Development</a></li>
+                <li><a href="#">Frontend Development</a></li>
+                <li><a href="#">Consultation</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Connect</h3>
+            <p>Let's build something amazing together</p>
+
+            <div class="social-links">
+                <a href="#" aria-label="GitHub">GitHub</a>
+                <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2048 Neural Network Portfolio. All rights reserved.</p>
+    </div>
+</footer>
+
+<script src="tooplate-neural-scripts.js"></script>
+
+</body>
+</html>
