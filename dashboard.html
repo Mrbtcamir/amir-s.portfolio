@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DIGILOG | Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Sidebar -->
+<div class="layout">
+    <aside class="sidebar">
+        <h2>DIGILOG</h2>
+        <ul>
+            <li>Dashboard</li>
+            <li>Events</li>
+            <li>Projects</li>
+            <li>Absences</li>
+            <li>Requests</li>
+            <li id="logout">Logout</li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+        <h1 id="roleTitle"></h1>
+
+        <!-- Stats -->
+        <div class="stats">
+            <div class="card">Events <span>12</span></div>
+            <div class="card">Projects <span>8</span></div>
+            <div class="card">Students <span>45</span></div>
+            <div class="card">Alerts <span>2</span></div>
+        </div>
+
+        <!-- Role-specific section -->
+        <div id="roleContent"></div>
+    </main>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
