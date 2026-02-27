@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elbehi Amir Portfolio</title>
-    <link rel="icon" type="image/png" href="icon.png">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;900&family=Exo+2:wght@300;400;500;600;700&family=Audiowide&display=swap" rel="stylesheet">
     <link href="tooplate-neural-style.css" rel="stylesheet">
+    <style>
+  .photo-bas-gauche {
+    position:-webkit-sticky;
+    bottom: 10px;
+    left: 0px;
+    margin: 50px;
+    border: 6px solid red;
+    animation: rainbow 10s linear infinite;
+  }
+
+  @keyframes rainbow {
+    0% { border-color: red; }
+    25% { border-color: orange; }
+    50% { border-color: green; }
+    75% { border-color: blue; }
+    100% { border-color: red; }
+  }
+</style>
+
 </head>
 
 <body>
@@ -50,11 +67,11 @@
         </div>
     </div>
 </nav>
-
 <section id="home" class="hero">
-    <div class="hero-content">
+<img src="amir.png" alt="Photo de profil" width="200" height="200" class="photo-bas-gauche">  
+  <div class="hero-content">
         <h1 class="glitch" data-text="ELBEHI AMIR">ELBEHI AMIR</h1>
-        <p class="subtitle">Web Developer & Digital Architect</p>
+        <p class="subtitle">UI Developer & Front-End Specialist</p>
     </div>
 
     <a href="#about" class="scroll-btn">
@@ -65,7 +82,125 @@
         </div>
     </a>
 </section>
+<p class="subtitle">
+    Front-End Specialist • UI Architect • Creative Developer
+</p>
 
+<p class="hero-description">
+    I design and build immersive, high-performance digital experiences 
+    that combine aesthetics, technology and innovation.
+</p>
+<br>
+<div class="hero-buttons">
+    <a href="#projects" class="neural-btn">View My Work</a>
+    <a href="#contact" class="neural-btn outline-btn">Hire Me</a>
+</div>
+</br>
+<section id="independent-projects" class="fade-in">
+    <h2 class="section-title">PROFESSIONAL EXPERIENCE</h2>
+
+    <div class="experience-container">
+        <div class="glass-card experience-card">
+    <h3>IT Intern – Délice Holding</h3>
+    <p class="exp-date">Soliman, Tunis • 2024</p>
+
+    <p class="exp-summary">
+        Internship within the IT department of a large industrial company, 
+        supporting internal infrastructure, system maintenance, and technical operations.
+    </p>
+
+    <ul>
+        <li>Supported maintenance of enterprise network infrastructure and internal systems.</li>
+        <li>Installed, configured, and updated Windows operating systems and business software.</li>
+        <li>Provided on-site technical assistance to employees, troubleshooting hardware and software issues.</li>
+        <li>Monitored database systems and assisted in data organization and backup procedures.</li>
+        <li>Contributed to improving system security and implementing basic cybersecurity practices.</li>
+        <li>Documented technical procedures to enhance internal IT workflows.</li>
+    </ul>
+</div>
+
+        <div class="glass-card experience-card">
+            <h3>AI Dashboard – Real-Time Analytics Interface</h3>
+            <p class="exp-date">2023</p>
+            <p class="exp-summary">
+                Designed and developed an interactive analytics dashboard 
+                focused on real-time data visualization and neural-style UI systems.
+            </p>
+            <ul>
+                <li>Built dynamic data visualization components using JavaScript.</li>
+                <li>Implemented animated UI elements and responsive layout.</li>
+                <li>Optimized rendering performance for smooth user interaction.</li>
+                <li>Designed futuristic interface with glassmorphism effects.</li>
+            </ul>
+            <div class="tech-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Data Visualization</span>
+            </div>
+        </div>
+
+        <div class="glass-card experience-card">
+            <h3>Quantum UI – Experimental Interface System</h3>
+            <p class="exp-date">2023</p>
+            <p class="exp-summary">
+                Developed a conceptual UI system inspired by quantum computing principles.
+            </p>
+            <ul>
+                <li>Created reusable UI components with advanced animation logic.</li>
+                <li>Designed experimental layout transitions.</li>
+                <li>Focused on innovative visual interactions.</li>
+                <li>Structured scalable front-end architecture.</li>
+            </ul>
+            <div class="tech-tags">
+                <span>React</span>
+                <span>CSS Animations</span>
+                <span>UI Architecture</span>
+            </div>
+        </div>
+
+        <div class="glass-card experience-card">
+            <h3>Cyber Portal – 3D Web Experience</h3>
+            <p class="exp-date">2023</p>
+            <p class="exp-summary">
+                Built an immersive 3D web experience integrating interactive visual environments.
+            </p>
+            <ul>
+                <li>Integrated WebGL and Three.js for 3D rendering.</li>
+                <li>Developed animated camera transitions and lighting effects.</li>
+                <li>Optimized performance for browser compatibility.</li>
+                <li>Created interactive 3D user interface elements.</li>
+            </ul>
+            <div class="tech-tags">
+                <span>Three.js</span>
+                <span>WebGL</span>
+                <span>JavaScript</span>
+                <span>3D Rendering</span>
+            </div>
+        </div>
+
+        <div class="glass-card experience-card">
+            <h3>Gym Platform – Fitness Web Application</h3>
+            <p class="exp-date">2023</p>
+            <p class="exp-summary">
+                Designed and structured a modern fitness platform interface 
+                focused on user engagement and responsive design.
+            </p>
+            <ul>
+                <li>Developed responsive UI for gym membership management.</li>
+                <li>Created booking and schedule interface layout.</li>
+                <li>Optimized mobile-first user experience.</li>
+                <li>Implemented clean and scalable front-end structure.</li>
+            </ul>
+            <div class="tech-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Responsive Design</span>
+            </div>
+        </div>
+
+    </div>
+</section>
 <section id="about" class="fade-in">
     <h2 class="section-title">ABOUT ME</h2>
 
@@ -87,14 +222,14 @@
             </p>
 
             <p style="color: var(--text-secondary);">
-                With over 5 years of experience in frontend development, I transform complex ideas 
+                With over 2 years of experience in frontend development, I transform complex ideas 
                 into intuitive and visually stunning web applications.
             </p>
 
             <div class="about-stats">
-                <div class="stat-card"><div class="stat-number">50+</div><div class="stat-label">Projects</div></div>
-                <div class="stat-card"><div class="stat-number">5+</div><div class="stat-label">Years Exp</div></div>
-                <div class="stat-card"><div class="stat-number">30+</div><div class="stat-label">Clients</div></div>
+                <div class="stat-card"><div class="stat-number">20+</div><div class="stat-label">Projects</div></div>
+                <div class="stat-card"><div class="stat-number">2+</div><div class="stat-label">Years Exp</div></div>
+                <div class="stat-card"><div class="stat-number">15+</div><div class="stat-label">Clients</div></div>
             </div>
         </div>
     </div>
@@ -133,9 +268,12 @@
             <h3>Matrix View</h3>
             <p>3D data exploration with VR support</p>
         </div>
+         <div class="glass-card project-card">
+            <h3>Platforme Salle Gymnastique</h3>
+            <p>Fitness, force et énergie au quotidien</p>
+        </div>
     </div>
 </section>
-
 <section id="skills" class="fade-in">
     <h2 class="section-title">SKILLS</h2>
 
@@ -204,6 +342,7 @@
         </div>
     </div>
 </footer>
-<script src="tooplate-neural-style.js"></script>
+
+<script src="tooplate-neural-scripts.js"></script>
 </body>
 </html>
